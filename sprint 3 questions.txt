@@ -1,0 +1,40 @@
+Sprint Challenge "JavaScript Fundamentals"
+
+1. Briefly compare and contrast .forEach & .map (2-3 sentences max)
+
+forEach does not return anything unless you ask it to. It also does not create a new array. 
+.map on the other hand returns a new array with values that depend on the function.
+
+2. Explain the difference between a callback and a higher order function.
+
+A callback is a function that is passed as an argument to another function which is then 
+called back at a later time.
+
+A higher order function accepts other functions as arguments.
+
+3. What is closure?
+
+A closure is a function that uses references in its scope or surrounding state. 
+This gives inner functions access to outer functions because it's in the same lexical 
+environment.
+
+
+4. Describe the four rules of the 'this' keyword.
+
+  1. Global binding to me is just a parameter or argument used in a function in substitute 
+     so you can use any value you wish to use in the future.
+  2. Implicit binding is one, and it means dot notation is used to invoke a function.
+  3. Explicit binding is when .call(), apply(), or bind() are used on a function. It takes 
+     all the keys/parameters from a constructor but then lets you add more keys yourself.
+  4. A new binding looks like a function that is kind of like a factory. It has all the 
+     tools needed to create multple items with all of the keys set. The bezt way to describe 
+     it is how Pace created a Transformers constructor which had keys like color, speed, 
+     catchphrase, etc. This function sets all the keys up for us, and later on we just 
+     create different versions of that function with its own values.
+*/
+
+
+5. Why do we need super() in an extended class?
+
+Super is used to call on the arguments/functions/properties that were in the parent class 
+or the "factory" class. It then allows you to add other properties to the extended class.
